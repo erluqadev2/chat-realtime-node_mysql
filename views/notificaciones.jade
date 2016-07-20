@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+    span(id='span_num_notif')
+  form(id='form_notif')
+    input(type='text' name="contenido")
+    button(type='button' id='btn_send') Guardar
+  script(src='/javascripts/notificaciones.js')

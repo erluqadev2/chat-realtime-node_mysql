@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Bienvenido al chat realtime con Node.js y Socket.io
+  div(class='content_chat')
+  div(class='content_input_msg')
+    input(type='text')
+    button(id='btn_send_msg') Enviar
+  script(src='/javascripts/chat.js')
