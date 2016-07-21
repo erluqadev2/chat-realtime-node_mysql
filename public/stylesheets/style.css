@@ -44,6 +44,12 @@ input
   width: 100%;
   display: none;
 }
+.content_chat h3 {
+  background-color: #fff;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 .content_chat div {
   background-color: #fff;
   color: #000;
@@ -52,20 +58,45 @@ input
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.content_chat div span {
+  padding: 0.5em;
+  margin: 0.5em 1em 0.5em 1em;
+}
+.content_chat div span .username {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+.content_chat div span .msg {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
 .content_input_chat {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 40px;
   display: none;
 }
 .content_input_chat input {
   height: 100%;
-  width: 80%;
+  width: 78%;
   margin: 0;
+  padding: 0.2em;
 }
 .content_input_chat button {
   width: 20%;
+  height: 100%;
+  padding: 0;
   margin: 0;
+}
+.alert_user_connect {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 2em;
+  padding: 1em;
+  background-color: #eca2a2;
+  color: #000;
+  display: none;
 }

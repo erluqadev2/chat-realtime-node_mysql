@@ -17,7 +17,10 @@ block content
   div(class='content_grupos')
 
   div(class='content_chat')
+    h3
   div(class='content_input_chat')
-    input(type='text')
+    input(type='text' placeholder='Ingrese aquí su mensaje')
     button(id='btn_send_msg') Enviar
+
+  div(class='alert_user_connect' id='alert_user_connect')
   script(src='/javascripts/chat.js')

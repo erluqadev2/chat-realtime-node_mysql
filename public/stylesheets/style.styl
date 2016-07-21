@@ -45,6 +45,12 @@ a
   width: 100%
   display: none
 
+  h3
+    background-color: white
+    color: #ccc
+    border: 1px solid #ccc
+    border-radius: 5px
+
   div
     background-color : white
     color: black
@@ -53,19 +59,44 @@ a
     border: 1px solid #ccc
     border-radius: 5px
 
+    span
+      padding: .5em
+      margin: .5em 1em .5em 1em
+
+      .username
+        background-color: #EEE
+        border: 1px solid #ccc
+      .msg
+        background-color: white
+        border: 1px solid #ccc
+
+
 .content_input_chat
   position: fixed
   bottom: 0
   left: 0
   width: 100%
-  height: 100px
+  height: 40px
   display: none
 
   input
     height: 100%
-    width: 80%
+    width: 78%
     margin: 0
+    padding: .2em
   button
     width: 20%
+    height: 100%
+    padding: 0
     margin: 0
+
+.alert_user_connect
+  position: fixed
+  bottom: 0
+  right: 0
+  margin: 2em
+  padding: 1em
+  background-color: #eca2a2
+  color: black
+  display: none
 
