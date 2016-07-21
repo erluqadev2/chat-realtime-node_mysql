@@ -3,8 +3,21 @@ extends layout
 block content
   h1= title
   p Bienvenido al chat realtime con Node.js y Socket.io
+
+  div(class='content_login')
+    form(id='form_login')
+      div
+        label= 'Usuario'
+        input(type='text' name='usuario')
+      div
+        label= 'Clave'
+        input(type='password' name='clave')
+      button(type='button' id='btn_send_login') Ingresar
+
+  div(class='content_grupos')
+
   div(class='content_chat')
-  div(class='content_input_msg')
+  div(class='content_input_chat')
     input(type='text')
     button(id='btn_send_msg') Enviar
   script(src='/javascripts/chat.js')
